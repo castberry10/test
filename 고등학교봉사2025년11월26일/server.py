@@ -12,9 +12,9 @@
 #     return {"message": "abc"}
 
 # # uvicorn simpleserver:app --reload --host 0.0.0.0
-# ---------------------------------------
-# 봐봐요 개쩔죠 localhost/ 랑 localhost/abc에 들어가게해서 개쉽다는걸 알게하기 
-# 
+# # # ---------------------------------------
+# # # 봐봐요 개쩔죠 localhost/ 랑 localhost/abc에 들어가게해서 개쉽다는걸 알게하기 
+
 # from fastapi import FastAPI
 # app = FastAPI()
 # data = []
@@ -33,7 +33,7 @@
 # @app.get("/print")
 # def abc():
 #     return {"message": "hello world"}
-# ---------------------------------
+# # # ---------------------------------
 # from fastapi import FastAPI
 # app = FastAPI()
 # data = []
